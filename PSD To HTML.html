@@ -1,0 +1,1374 @@
+<!DOCTYPE    html>
+<html  lang="en">
+
+<head>
+
+
+
+<title>Header Area </title>
+
+
+<link  rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+
+<link rel="stylesheet" href="meanmenu.css" media="all" /> 
+
+<style>
+
+
+
+
+
+  /*===============================
+Tablet Layout 
+=================================*/
+
+@media only screen and (min-width:200px) and (max-width:991px) {
+
+ .social_area  {
+max-width : 460px ; 
+padding-top : 14px ; 
+
+
+}
+   
+
+.inner_menu  {
+background  : none ; 
+min-height :auto ;
+}
+
+.inner_menu::after  {
+display : none ; 
+
+}
+
+.mean-container  .mean-nav {
+width : 80% ; 
+margin-top : 0 ; 
+}
+
+.inner_header  {
+padding : 20px 0  ; 
+}
+
+#slider_area {
+margin-top : 0 ; 
+
+}
+
+
+.inner_hero1 h2  {
+font-size : 55px ; 
+
+}
+
+}
+
+
+
+/*=============================== Mobile Layout 
+===============================*/
+
+@media only screen and   (min-width200px) and (max-width:991px) {
+
+
+.mini_menu{
+width : 100% ; 
+margin-bottom : 10px ; 
+
+}
+
+.mini_menu  ul , .social_area   ul  {
+text-align : center ; 
+
+}
+
+  
+.search_area  , .logo_area {
+float : none ;
+width : 250px ; 
+text-align : center ; 
+margin : 0 auto; 
+}
+
+.social_area   ul  li {
+margin : 0  5px ; 
+
+}
+
+.inner_hero1 h2  {
+font-size : 25px ; 
+
+}
+
+.inner_hero1 {
+overflow : hidden ; 
+padding-bottom : 20px ;
+}
+
+
+#work_area , #footer_area {
+padding : 20px 0 ; 
+
+}
+
+
+.child_work  {
+width : 98% ; 
+}
+
+.child_footer {
+width : 96% ; 
+}
+
+.left_copyright {
+width : 100% ; 
+margin-bottom : 10px ;
+}
+
+.right_copyright  {
+ text-align : left ; 
+width : 100% ; 
+}
+
+
+}
+
+
+
+/*===============================
+Common CSS
+===============================*/
+
+
+
+
+body  {
+
+color : #666666 ; 
+font-size : 16px ; 
+font-family :   Georgia , sans-serif ;
+margin : 0 ; 
+line-height : 1.5em ; 
+
+}
+
+.container {
+width : 96% ; 
+max-width : 960px ; 
+margin : 0 auto ; 
+
+}
+
+
+img {
+ max-width : 100% ; 
+height : auto ; 
+
+}
+
+
+/*================================
+Top Header Area
+================================*/
+
+
+.header_area{
+width : 100% ; 
+clear : both ; 
+
+}
+
+#top_header_area{
+background : #ba2e1f ; 
+padding : 40px 0 ;
+width : 100% ; 
+
+}
+
+
+.inner_top_header{
+overflow : hidden ; 
+
+}
+
+.mini_menu{
+float : left ;  
+width : 70% ; 
+padding-top : 0px ; 
+
+}
+
+.mini_menu  ul {
+margin : 0 ; 
+padding : 0 ; 
+text-align : left ; 
+list-style : none ; 
+
+}
+
+.mini_menu  ul  li {
+display : inline-block ; 
+position : relative ; 
+margin-right : 20px ; 
+}
+
+.mini_menu  ul  li:after{
+background : #ffffff ; 
+content : " " ; 
+position : absolute ; 
+top : 6px ; 
+right : -10px ; 
+height  : 12px ;
+width : 1px ; 
+
+}
+
+.mini_menu  ul  li:last-child::after {
+display : none ; 
+}
+
+
+.mini_menu  ul   li  a{
+display : block ;
+color : #ffffff ; 
+text-decoration : none ;  
+font-size : 14px ; 
+}
+
+.mini_menu  ul  li  a:hover{
+color : #ddd  ; 
+}
+
+
+.search_area{
+float :right ;
+width : 30% ; 
+}
+
+.search_area  form   {
+background : #ffffff ; 
+width : 96% ;
+padding : 2% ;  
+max-width : 210px ; 
+float : right ; 
+border-radius : 25px ; 
+}
+
+.search_area  input {
+border : 0px solid ; 
+width : 75% ; 
+color : #000 ; 
+padding : 1% ; 
+float : left ; 
+
+}
+
+ .search_area  input[type="submit"]  {
+width : 23% ; 
+cursor : pointer ; 
+}
+
+
+/*================================
+Main Header Area
+================================*/
+
+#main_header_area  {
+width : 100% ; 
+clear : both ; 
+
+}
+
+
+.inner_header  {
+overflow : hidden ; 
+padding : 40px 0  ; 
+}
+
+.logo_area {
+float : left ; 
+width : 240px  ; 
+text-transform : uppercase ; 
+}
+
+.logo_area  a {
+text-decoration : none ; 
+font-size : 30px ; 
+font-weight : bold ; 
+
+}
+
+.social_area  {
+padding-top : 10px ; 
+float : right ; 
+max-width : 700px ; 
+width : 100% ; 
+
+}
+
+.social_area   ul {
+padding : 0 ; 
+margin : 0 ; 
+list-style : none ; 
+text-align : right ; 
+
+}
+
+.social_area   ul  li {
+display : inline-block; 
+margin-left : 15px ; 
+
+}
+.social_area ul  li   a{
+display : block ; 
+text-decoration : none ; 
+}
+
+.social_area  ul  li  a  i{
+background : #333333 ; 
+border-radius : 50%; 
+display : block ; 
+text-decoration : none ; 
+width : 35px  ;
+height : 25px ; 
+text-align : center ; 
+padding-top : 8px ; 
+color : #fff ; 
+transition : 0.5s ; 
+}
+
+.social_area  ul li  a:hover  i {
+background : #ba2e1f ; 
+
+}
+
+.social_area  ul li  a:hover  i.fa-facebook {
+background : blue ; 
+}
+.social_area  ul li  a:hover  i.fa-twitter {
+background : #4187E5 ; 
+}
+
+.social_area  ul li  a:hover  i.fa-youtube {
+background : red; 
+}
+
+.social_area  ul li  a:hover  i.fa-chrome {
+background : green; 
+}
+
+.social_area  ul li  a:hover  i.fa-google-plus {
+background : #D64134; 
+}
+
+
+
+
+
+
+/*===============================
+Dropdown Menu
+=================================*/
+
+
+ #main_menu {
+width : 100% ; 
+clear : both ; 
+
+}
+
+.inner_menu  {
+background  : #333333 ; 
+padding : 15px  0 ; 
+border-radius : 5px ; 
+position : relative ; 
+z-index : 1  ;
+min-height : 30px ;
+}
+
+.inner_menu::after  {
+background : #2b2b2b ; 
+position : absolute ; 
+bottom : 0 ; 
+left : 0 ; 
+width :  100% ; 
+height : 50%  ; 
+content : " ";
+z-index : -1 ; 
+
+}
+
+
+
+#main_menu  ul {
+
+padding : 0 ; 
+margin : 0 ; 
+list-style : none ; 
+text-align : center ; 
+
+}
+
+#main_menu  ul li {
+display : inline-block ; 
+margin : 0  5px  ; 
+position : relative ; 
+
+}
+
+#main_menu  ul   li a {
+color : white ; 
+text-decoration : none ; 
+display : block ; 
+padding : 5px ; 
+
+}
+
+#main_menu  ul   li   a:hover  {
+color : #ba2e1f ; 
+
+}
+
+#main_menu  ul   li:hover   a  {
+color : #ba2e1f ; 
+
+}
+
+
+#main_menu  ul   li:hover   ul li a  {
+color : #fff ; 
+
+}
+
+
+
+/*================================
+Dropdown Style 
+================================*/
+
+
+#main_menu  ul  ul {
+background : #ba2e1f ; 
+position : absolute ;
+width : 180px ; 
+top : 33px ;
+left : -9999999px ; 
+
+}
+
+#main_menu  ul  li:hover  ul {
+left : 0 ; 
+}
+
+#main_menu  ul  li:hover  ul  ul  {
+left : -999999px ; 
+}
+
+
+#main_menu  ul  ul  ul  {
+left : -9999999px ; 
+top  : 0 ; 
+
+
+}
+
+#main_menu  ul  li  ul   li:hover ul  {
+left : 180px ; 
+}
+
+#main_menu  ul ul  li {
+display : block ; 
+margin : 0 ; 
+
+}
+
+
+
+#main_menu  ul ul  li  a:hover {
+background : #333333 ; 
+ color : #fff ; 
+
+}
+
+
+#main_menu  ul ul  li:hover   a {
+background : #333333  ; 
+ color : #fff ; 
+
+}
+
+#main_menu  ul ul  li:hover  ul  li  a {
+background : none   ; 
+ color : #fff ; 
+
+}
+
+
+#main_menu  ul ul  li  ul  li  a:hover {
+background : #333333   ; 
+ color : #fff ; 
+
+}
+
+/*============================== Slider Area Css
+=================================*/
+
+
+#slider_area {
+margin-top : 20px ; 
+
+}
+.inner_slider {
+
+
+}
+
+.slider_area {
+
+}
+
+.item  {
+position  : relative ; 
+
+ 
+}
+
+.item img {
+width : 100% ;
+}
+
+.slider_caption {
+position : absolute ; 
+text-align : center ; 
+width : 100% ; 
+top : 50%  ; 
+left : 50% ; 
+transform : translate(-50% , -50%);
+
+}
+
+.slider_caption {
+color : #fff ; 
+font-size : 35px ; 
+
+}
+
+/*=====================================   Hero Area Css
+=================================*/
+
+
+#hero_area  {
+background : #fff  ; 
+margin : 0 ; 
+padding : 0 ; 
+
+}
+
+.inner_hero_area {
+overflow : hidden ; 
+
+}
+
+.inner_hero  {
+float : left ; 
+
+}
+
+.inner_hero  img  {
+width :450px; 
+height : 500px; 
+margin-right  : 20px ; 
+
+}
+
+
+.inner_hero1 {
+left : 250px ; 
+}
+
+.inner_hero1 h2  {
+font-size : 70px ; 
+
+line-height : 1em ; 
+color : #000000 ;
+margin-bottom : 15px ; 
+}
+
+.inner_hero1 p {
+color : #666666 ; 
+font-size : 16px ; 
+font-weight : normal ; 
+margin-bottom : 10px ;
+
+}
+
+.inner_hero1  a {
+text-decoration : none  ; 
+float : right ; 
+text-transform : uppercase ; 
+font-weight : normal ; 
+margin-top : 30px ; 
+
+}
+
+.inner_hero1  a:hover  {
+color : orange ; 
+
+}
+
+/*===============================                    Work  Area Css
+=================================*/
+
+
+#work_area  {
+background : #f2f2f2 ; 
+padding : 45px 0 ; 
+
+
+}
+
+.inner_work {
+overflow : hidden ; 
+}
+
+.child_work  {
+width : 30% ; 
+float : left ; 
+margin : 0  1% 10px ; 
+}
+
+
+.child_work  h2  {
+ font-size : 26px ; 
+font-weight : normal ; 
+color  : #333333 ; 
+
+}
+
+.child_work  p  {
+ font-size : 14px ; 
+font-weight : normal ; 
+color  : #878787 ; 
+
+}
+
+.child_work  a  {
+ font-size : 14px ; 
+font-weight : normal ; 
+color  : #b92d1f ; 
+text-decoration : none ; 
+float : right ; 
+clear : both ; 
+}
+
+.about_area {
+margin-left : 0 ; 
+}
+
+.about_area  img  {
+border : 1px solid #dfdfdf ; 
+display : block ; 
+padding : 5px ; 
+margin-bottom : 15px ; 
+width : 250px ;
+height : 200px ;
+display : inline-block ; 
+}
+
+
+
+.service_area {
+
+}
+
+.child_service  {
+width : 100% ; 
+overflow : hidden ; 
+margin-bottom : 15px ; 
+}
+
+.child_service  img{
+width : 80px ;
+float : left ; 
+margin-right : 10px ; 
+
+}
+
+
+.child_service   h3{
+font-size : 14px ; 
+
+}
+
+.child_service    p{
+
+
+}
+
+.testimonial_area {
+margin-right : 0 ; 
+
+}
+
+.child_testimonial {
+width : 100% ; 
+margin-bottom : 15px ; 
+overflow : hidden ; 
+
+}
+
+.child_testimonial   h3 {
+color : #989898 ; 
+font-size : 16px ; 
+font-weight : bold ; 
+}
+
+
+.child_testimonial   span{
+font-weight : normal; 
+}
+
+
+.child_testimonial   strong{
+font-family : arial ; 
+font-weight : normal; 
+font-size : 20px ; 
+}
+
+/*===============================
+Foter  Area Css
+=================================*/
+
+#footer_area  {
+background:#fff;
+padding:45px 0 ; 
+}
+
+.inner_footer {
+overflow : hidden;
+}
+
+.child_footer {
+padding : 1% ; 
+margin : 0 1% 10px; 
+width : 21% ; 
+float : left ; 
+}
+
+.child_footer   h3 {
+border-top : 1px solid #666666;
+text-transform : uppercase ; 
+font-size  : 16px ; 
+padding-top  : 5px ; 
+margin-top : 0  ;
+color : #666666; 
+
+}
+.child_footer h4  {
+color : #666666 ; 
+margin-top : 0 ; 
+font-size : 14px ; 
+margin-bottom : 5px ; 
+
+}
+
+.child_footer  h4 a{
+color : #666666 ; 
+text-decoration : none ; 
+float : none ; 
+
+}
+
+.child_footer  h4  a:hover  {
+color : #b92d1f ; 
+}
+
+
+.child_footer  h6  {
+font-size: 12px ;
+line-height : 1.3em ; 
+margin : 0 0 10px ; 
+
+}
+.child_footer  p  {
+color : #666666; 
+font-size : 14px; 
+margin-top : 0 ; 
+
+
+
+} 
+.child_footer  p   a{
+text-decoration : none ; 
+color : #b92d1f ; 
+
+}
+.child_blog   {
+overflow : hidden; 
+width : 100% ; 
+margin-bottom : 20px ; 
+
+
+}
+.child_blog   a{
+float : right ; 
+color : #b92d1f ; 
+font-size : 14px ; 
+text-decoration  : none ; 
+
+}
+.child_footer  p  a:hover{
+
+}
+.child_footer  ul {
+margin : 0 ; 
+padding : 0 ; 
+list-style : none ; 
+
+}
+.child_footer  ul   ul {
+display : none ; 
+}
+.child_footer  li{
+ display : block ; 
+border-bottom : 1px solid #666666 ; 
+}
+
+
+.child_footer li   a{
+color : #666666 ; 
+text-decoration : none ; 
+}
+.child_footer  li  a:hover{
+color : #b92d1f ; 
+}
+.child_footer  input {
+background: #f2f2f2 ; 
+border: 0px solid ; 
+border-radius : 10px ; 
+margin-bottom : 10px ;  
+padding : 10px 2% ; 
+width : 96% ; 
+
+}
+.child_footer  textarea{
+background: #f2f2f2 ; 
+border: 0px solid ; 
+border-radius : 10px ; 
+margin-bottom : 10px ;  
+padding : 10px 5% ; 
+width : 90% ; 
+}
+
+.child_footer [type="submit"] {
+width : 80px ; 
+color : #b92d1f ; 
+cursor : pointer ; 
+
+}
+
+.child_footer [type="submit"]:hover{
+
+background: #b92d1f ; 
+color : #fff; 
+}
+
+
+
+
+/*===============================
+    Copy Right Area CSS
+================================ */
+
+
+
+
+
+#copyright_area{
+background : #f2f2f2  ; 
+padding : 20px 0 ; 
+
+}
+
+.inner_copyright  {
+overflow : hidden ; 
+}
+
+.inner_copyright p{
+ margin : 0;
+color : #919191;
+font-size :12px ;
+}
+
+.left_copyright {
+float : left ; 
+
+}
+
+.right_copyright  {
+float : right ;
+
+}
+
+
+
+</style>
+
+
+
+
+</head>
+
+<body>
+
+<div  id="mobile_menu">
+
+</div>
+
+<header  class="header_area">
+
+<div  id="top_header_area">
+
+<div class="inner_top_ header  container">
+
+<div class="mini_menu">
+
+<ul>
+
+<li><a  href="#">Sign Up</a></li>
+<li><a  href="#">Log In</a></li>
+<li><a  href="#">RSS Feeds</a></li>
+<li><a  href="#">Archived News</a></li>
+
+</ul>
+
+
+</div>
+
+<div  class="search_area">
+
+<form  action="from.php">
+<input type="text"  placeholder="Search here" />
+
+<input type="submit"  value=""  />
+
+</form>
+
+</div>
+</div>
+</div>
+
+
+
+<div  id="main_header_area">
+<div  class="inner_header container">
+<div  class="logo_area">
+
+
+<a href="#">Systemetic.com
+</a>
+
+
+</div>
+
+
+<div  class="social_area">
+
+<ul>
+
+
+<li> <a  href=""><i  class="fa  fa-facebook"> </i></a></li>
+
+<li><a  href=""><i  class="fa fa-twitter"> </i></a></li>
+
+<li><a  href=""><i  class="fa fa-youtube"> </i></a></li>
+
+<li><a  href=""><i  class="fa fa-chrome"> </i></a></li>
+
+<li><a  href=""><i  class="fa fa-google-plus"> </i></a></li>
+
+</ul>
+</div>
+
+
+
+</div>
+</div>
+
+
+
+
+<nav  id="main_menu">
+<div  class="inner_menu container">
+
+<ul>
+
+<li><a  href="#">HomePage</a></li>
+<li><a  href="#">Style Demo</a></li>
+<li><a  href="#">Full Width</a></li>
+
+<li><a  href="#">Dropdown</a>
+
+<ul>
+
+<li><a  href="#">Dropdown menu</a></li>
+<li><a  href="#">Dropdown menu</a></li>
+<li><a  href="#">Dropdown menu</a>
+
+<ul>
+
+<li><a  href="#">Dropdown menu</a></li>
+<li><a  href="#">Dropdown menu</a></li>
+<li><a  href="#">Dropdown menu</a></li>
+<li><a  href="#">Dropdown menu</a></li>
+<li><a  href="#">Dropdown menu</a></li>
+<li><a  href="#">Dropdown menu</a></li>
+
+</ul>
+
+</li>
+
+<li><a  href="#">Dropdown menu</a></li>
+<li><a  href="#">Dropdown menu</a></li>
+<li><a  href="#">Dropdown menu</a></li>
+
+
+</ul>
+
+</li>
+
+<li><a  href="#">Gallery</a></li>
+<li><a  href="#">Link Text</a></li>
+<li><a  href="#">Long Link Text</a></li>
+
+</ul>
+
+</div>
+
+</nav>
+
+</header>
+
+
+<section id="slider_area">
+
+<div  class="inner_slider ">
+<div  class="slider_area container">
+
+<div  class="item">
+<div  class="slider_caption">
+
+<h1>Welcome</h1>
+
+</div>
+<img  src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHRlY2hub2xvZ3l8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"  alt=""  />
+</div>
+
+<div  class="item">
+<img  src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dGVjaG5vbG9neXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" alt=""  />
+</div>
+
+<div  class="item">
+<img  src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dGVjaG5vbG9neXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"  alt=""  />
+</div>
+
+
+</div>
+
+</div>
+
+
+</section>
+
+
+<section  id="hero_area">
+
+<div  class="inner_hero_area container">
+
+<div  class="inner_hero">
+
+<img  src="https://images.unsplash.com/photo-1619980652419-5128d5cb93cc?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"  alt=""   class="aligenleft"  />
+</div>
+
+<div  class="inner_hero1">
+
+<h2>A HUGE TITLE HERE</h2>
+<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquaincididunt ut labore et dolore magna aliqua.</p>
+
+<a  href="#">READ MORE</a>
+
+</div>
+</div>
+
+
+</section>
+
+<section  id="work_area">
+
+<div  class="inner_work container">
+
+<div  class="about_area  child_work">
+
+<h2>A Little About Us</h2>
+
+<img  src="https://images.unsplash.com/photo-1619969403139-65ed6035f460?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"  alt=""  />
+
+<p>"unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+
+<p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+
+<a  href="#">Read More About Us</a>
+</div>
+
+
+<div  class="service_area  child_work">
+
+<div  class="child_service">
+
+<h2>Some of Our Services</h2>
+
+<div  class="service_image">
+
+<img src="https://images.unsplash.com/photo-1619834712686-6187ef1879cf?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDR8YWV1NnJMLWo2ZXd8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60:"  alt=""  />
+
+</div>
+
+<div  class="service_text">
+
+<h3>Service Name</h3>
+
+<p> If you use this site regularly and would like to help keep the site on the Internet, </p>
+
+</div>
+</div>
+
+
+<div  class="child_service">
+
+<div  class="service_image">
+
+<img src="https://images.unsplash.com/photo-1619834712686-6187ef1879cf?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDR8YWV1NnJMLWo2ZXd8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"  alt=""  />
+
+</div>
+
+<div  class="service_text">
+
+<h3>Service Name</h3>
+
+<p> If you use this site regularly and would like to help keep the site on the Internet, </p>
+
+</div>
+</div>
+
+
+<div  class="child_service">
+
+<div  class="service_image">
+
+<img src="https://images.unsplash.com/photo-1619834712686-6187ef1879cf?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDR8YWV1NnJMLWo2ZXd8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"  alt=""  />
+
+</div>
+
+<div  class="service_text">
+
+<h3>Service Name</h3>
+
+<p> If you use this site regularly and would like to help keep the site on the Internet, </p>
+
+</div>
+</div>
+
+<div  class="child_service">
+
+<div  class="service_image">
+
+<img src="https://images.unsplash.com/photo-1619834712686-6187ef1879cf?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDR8YWV1NnJMLWo2ZXd8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"  alt=""  />
+
+</div>
+
+<div  class="service_text">
+
+<h3>Service Name</h3>
+
+<p> If you use this site regularly and would like to help keep the site on the Internet, </p>
+
+</div>
+</div>
+
+<a  href="#">View All Of Our Service
+</a>
+
+</div>
+
+<div  class="testimonial_area  child_work">
+
+
+<h2>What our clients say</h2>
+<div  class="child_testimonial">
+<h3>Tonny Tanker <span>- CEO</span> </h3>
+
+<p> If you use this site regularly and would like to help keep the site on the Internet, please consider donating a small sum to help pay for the hosting and bandwidth bill. </p>
+
+<a  href="#">View This Project</a>
+
+</div>
+
+<div  class="child_testimonial">
+<h3><strong>"</strong>Tonny Tanker<span> - CEO </span></h3>
+
+<p>  If you use this site regularly and would like to help keep the site on the Internet, please consider donating a small sum to help pay for the hosting and bandwidth bill. </p>
+
+<a  href="#">View This Project</a>
+
+</div>
+
+</div>
+</div>
+
+</section>
+
+<footer  id="footer_area">
+<div  class="inner_footer container"> 
+
+
+<div  class="child_footer">  
+
+<h3>Latest Tweets</h3>
+<p  class="para"> <a href="#"> Netlify discovers</a> and installs your project dependent and allo you toe power plugins that hook into any stage of the build process.allo you to write power plugins that hook into any stage of the build process.
+</p>
+
+
+<p><a  href="#">  Netlify discovers </a> and installs your project dependent and allow you to write power plugins that hook into any stage of the build process.allow you to write power plugins that hook into any stage of the build process.
+</p>
+
+
+
+</div>
+
+
+
+
+
+
+<div  class="child_footer">
+
+<h3>Quick Links</h3>
+<ul>
+
+<li><a  href="#">Lorem Ifsum sit</a></li>
+<li><a  href="#">Lorem Ifsum sit</a></li>
+<li><a  href="#">Lorem Ifsum sit</a></li>
+<li><a  href="#">Lorem Ifsum sit</a></li>
+<li><a  href="#">Lorem Ifsum sit</a></li>
+<li><a  href="#">Lorem Ifsum sit</a></li>
+<li><a  href="#">Lorem Ifsum sit</a></li>
+<li><a  href="#">Lorem Ifsum sit</a></li>
+<li><a  href="#">Lorem Ifsum sit</a></li>
+<li><a  href="#">Lorem Ifsum sit</a></li>
+</ul>
+
+</div>
+
+
+
+
+<div  class="child_footer">
+
+<h3> Latest Blog Post</h3>
+<div  class="child_blog">
+<h4><a  href="#"> Post Title</a> </h4>
+
+<h6> allow you to write powerful plugins that hook into any stage of the build process.</h6>
+
+<p>write powerful plugins that hook into any stage of the build process.allows you to write powerful plugins that hook into any stage of the build process.</p><a  href="#">Read more</a>
+
+
+<h4> Post Title </h4>
+
+<h6> allow you to write powerful plugins that hook into any stage of the build process.</h6>
+
+<p>write powerful plugins that hook into any stage of the build process.allows you to write powerful plugins that hook into any stage of the build process.</p>
+<a  href="#">Read more</a>
+</div>
+</div>
+
+
+<div class="child_footer">
+<h3> Contact Us</h3>
+
+<form  action="from.php">
+<input  type="text" placeholder="Name" name="Name"   />
+
+<input type="text" placeholder="Email" name="Email"  />
+
+<input type="password"  placeholder="Password" name="Password"  />
+
+<textarea>message.... </textarea> 
+
+
+<input   type="submit"    value="submit" />  
+</form>
+
+</div>
+</div>
+</footer>
+
+
+
+
+
+<div id="copyright_area">
+<div  class="inner_copyright  container">
+<div  class="left_copyright">
+<p> Copy Right Domain Name - All Right Reseabed</p>
+
+</div>
+
+
+<div   class="right_copyright">
+<p>Templates by OS Template</p>
+
+</div>
+</div>
+
+
+
+</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+</script>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js">
+</script> 
+
+<script src="assets/js/plugins/jquery.meanmenu.js"></script> 
+
+
+
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js">
+
+</script>
+
+<script>
+    $(document).ready(function(){
+      $('.slider_area').bxSlider();
+       $('#main_menu').meanmenu({ 
+meanMenuContainer : '#mobile_menu' ,
+meanScreenWidth : 991 ,
+
+});
+    });
+   </script>
+
+
+
+</body>
+</html>
